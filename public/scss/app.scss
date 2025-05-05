@@ -1,0 +1,66 @@
+/*
+Theme Name: Mongolian Outdoors
+Author: Tecursive
+Author URI: https://themeforest.net/user/tecursive
+Description: Travel & Tour Booking NextJS Template
+Version: 1.0.0
+*/
+
+/*CSS Table Of Content Ends Here*/
+
+//>> Basic Start <<//
+
+// mixins
+@use "./mixins" as *;
+// variables
+@use "./variables" as *;
+//>> Buttons <<//
+@use "./buttons" as buttons;
+//>> Typography <<//
+@use "./typography" as typography;
+//>> Basic End <<//
+
+//>> Template Section Style Start <<//
+
+//>> Global <<//
+@use "./global" as global;
+//>> Section <<//
+@use "./section" as section;
+//>> Animation <<//
+@use "./animation" as animation;
+//>> Header <<//
+@use "./header" as header;
+//>> MeanMenu <<//
+@use "./meanmenu" as meanmenu;
+//>> Hero <<//
+@use "./hero" as hero;
+//>> Feature <<//
+@use "./feature" as feature;
+//>> About <<//
+@use "./about" as about;
+//>> Destinations <<//
+@use "./destination" as destination;
+//>> Tour <<//
+@use "./tour" as tour;
+//>> Helping <<//
+@use "./helping" as helping;
+//>> Team <<//
+@use "./team" as team;
+//>> Faq <<//
+@use "./faq" as faq;
+//>> Cta <<//
+@use "./cta" as cta;
+//>> Testimonial <<//
+@use "./testimonial" as testimonial;
+//>> Brand <<//
+@use "./brand" as brand;
+//>> News Addons <<//
+@use "./news-addons" as newsAddons;
+//>> Blog index default style <<//
+@use "./blog" as blog;
+//>> Contact <<//
+@use "./contact" as contact;
+//>> Footer <<//
+@use "./footer" as footer;
+
+//>> Template Section Style End <<
