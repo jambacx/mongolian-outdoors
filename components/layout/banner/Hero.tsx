@@ -60,11 +60,11 @@ const Hero = () => {
                     <div className="col-lg-12">
                       <div className="hero-content">
                         <h6 data-animation="fadeInUp" data-delay="1.3s">
-                          Mongolian Outdoors{" "}
+                          Discover Mongolia’s Beauty
                         </h6>
                         <h1 data-animation="fadeInUp" data-delay="1.5s">
-                          <span className="shape-text">Судла</span>
-                          <span> Дэлхийн </span> <br /> өнцөг булан бүрийг
+                          <span className="shape-text">Explore</span>
+                          <span> the wonders </span> <br /> of the world
                         </h1>
                       </div>
                     </div>
@@ -93,16 +93,12 @@ const Hero = () => {
                     <div className="col-lg-12">
                       <div className="hero-content">
                         <h6 data-animation="fadeInUp" data-delay="1.3s">
-                          Аялал & Жуулчлалын Агентлаг
+                          Adventure Begins Here
                         </h6>
                         <h1 data-animation="fadeInUp" data-delay="1.5s">
-                          <span className="shape-text">Судла</span>
-                          <span> Дэлхийн </span> <br /> өнцөг булан бүрийг
+                          <span className="shape-text">Mongolia</span>
+                          <span> is waiting </span> <br /> for you
                         </h1>
-                        <p data-animation="fadeInUp" data-delay="1.7s">
-                          Өндрийн төвшний үйлчилгээ, тав тухтай аяллын
-                          хөтөлбөрийг санал болгож байна.
-                        </p>
                       </div>
                     </div>
                   </div>

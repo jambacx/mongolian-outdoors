@@ -1,22 +1,22 @@
 const NavbarData = [
   {
-    title: "Нүүр",
+    title: "Home",
     path: "/",
   },
   {
-    title: "Бидний тухай",
+    title: "About Us",
     path: "/about",
   },
   {
-    title: "Аяллууд",
+    title: "Tours",
     path: "/tour-list",
   },
   {
-    title: "Нийтлэл",
+    title: "Articles",
     path: "/news",
   },
   {
-    title: "Холбоо барих",
+    title: "Contact",
     path: "/contact",
   },
 ];

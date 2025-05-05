@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="container py-5">
         {/* Newsletter */}
         <div className="footer-newsletter-items text-center mb-5">
-          <h2 className="mb-3">Stay Updated with Our Newsletter</h2>
+          <h2 className="mb-3">Welcome to the Mongolia</h2>
           <div className="d-inline-flex align-items-center bg-white rounded overflow-hidden">
             <input
               type="email"
@@ -92,10 +92,7 @@ const Footer = () => {
               <ul className="list-unstyled d-flex flex-column gap-2 mb-0">
                 {NavbarData.map((item, i) => (
                   <li key={i}>
-                    <Link
-                      href={item.path}
-                      className="text-decoration-none"
-                    >
+                    <Link href={item.path} className="text-decoration-none">
                       {item.title}
                     </Link>
                   </li>

@@ -15,10 +15,12 @@ const CreatableSelect = dynamic<
 
 const options: OptionType[] = [
   { value: "", label: "Your city or Region" },
-  { value: "australia", label: "Australia" },
-  { value: "india", label: "India" },
-  { value: "italy", label: "Italy" },
-  { value: "japan", label: "Japan" },
+  { value: "otgontenger", label: "Otgontenger Mountain" },
+  { value: "ulaagchin_khar_nuur", label: "Ulaagchinii Khar Lake" },
+  { value: "telmen_lake", label: "Telmen Lake" },
+  { value: "bor_khars", label: "Bor Khar Sand Dunes" },
+  { value: "tarvagatai_nuruu", label: "Tarvagatai Nuruu National Park" },
+  { value: "uliastai", label: "Uliastai City" },
 ];
 
 const CountrySelect = () => {

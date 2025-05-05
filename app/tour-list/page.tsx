@@ -10,7 +10,7 @@ const page = () => {
   return (
     <>
       <Header />
-      <Breadcrumb title="Listing Sidebar" />
+      <Breadcrumb title="Tour list" />
       <TourList />
       <Footer />
       <CustomCursor />

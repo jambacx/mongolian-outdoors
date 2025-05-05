@@ -16,9 +16,12 @@ const CreatableSelect = dynamic<
 
 const options: OptionType[] = [
   { value: "", label: "Choose Activity" },
-  { value: "activity-01", label: "Activity 01" },
-  { value: "activity-02", label: "Activity 02" },
-  { value: "activity-03", label: "Activity 03" },
+  { value: "horseback-riding", label: "Horseback Riding" },
+  { value: "hiking", label: "Hiking" },
+  { value: "birdwatching", label: "Birdwatching" },
+  { value: "camping", label: "Camping" },
+  { value: "cultural-tour", label: "Cultural Tour" },
+  { value: "hot-springs", label: "Hot Springs" },
 ];
 
 const ActivitySelect = () => {

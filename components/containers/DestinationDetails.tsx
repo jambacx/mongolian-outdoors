@@ -4,8 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import FaqData from "@/public/data/faq-data";
 import GoogleMap from "./GoogleMap";
-import thumb from "@/public/images/destinations/details1.jpg";
-import discount from "@/public/images/destinations/disocunt.png";
+import thumb from "@/public/images/destinations/02.jpg";
+import discount from "@/public/images/destinations/03.jpg";
 
 const DestinationDetails = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(0);
@@ -22,28 +22,26 @@ const DestinationDetails = () => {
             <div className="col-xl-8 col-12">
               <div className="details-post">
                 <div className="details-image">
-                  <Image src={thumb} alt="img" />
+                  <Image src={thumb} alt="Khongor Sand Dunes" />
                 </div>
                 <div className="details-content">
-                  <h2>Explore Zagreb, Croatia</h2>
+                  <h2>Explore Khongor Sand Dunes, Mongolia</h2>
                   <p>
-                    We offer carefully curated destinations and tours that
-                    capture the true essence of location, ensuring you
-                    experience. There are many variations of passages of Lorem
-                    Ipsum available, but the majority have suffered alteradution
-                    in some form by injected humour, or randomised words which
-                    don&apos;t look even slightly believable. If you are going
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteradution in
-                    some form by injected humour, or randomised words which
-                    don&apos;t look even slightly believable. If you are going
+                    The Khongor Sand Dunes, also known as "Singing Sands," are
+                    among the largest and most spectacular sand dunes in
+                    Mongolia. Stretching over 180 kilometers in length and
+                    reaching heights of up to 300 meters, these dunes are a
+                    natural wonder of the Gobi Desert. The dunes produce a
+                    unique humming sound when the wind moves the sand, giving
+                    them their melodic nickname.
                   </p>
                   <p className="mt-3">
-                    If you are going There are many variations of passages of
-                    Lorem Ipsum available, but the majority have suffered
-                    alteradution in some form by injected humour, or randomised
-                    words which don&apos;t look even slightly believable. If you
-                    are going
+                    Adjacent to the dunes lies the Khongoryn Gol River, creating
+                    a lush green oasis that contrasts beautifully with the
+                    golden sands. Visitors can experience camel rides across the
+                    dunes, hike to the summit for panoramic views, and immerse
+                    themselves in the nomadic culture by staying in traditional
+                    Mongolian gers.
                   </p>
                   <div className="destination-list-item">
                     <h4>Experience the Difference</h4>
@@ -126,43 +124,33 @@ const DestinationDetails = () => {
                   <ul className="destination-card">
                     <li>
                       Country:
-                      <span>Croatia</span>
+                      <span>Mongolia</span>
                     </li>
                     <li>
                       Visa Requirements:
-                      <span>Croatia</span>
+                      <span>Visa required for most countries</span>
                     </li>
                     <li>
                       Languages Spoken:
-                      <span>English</span>
+                      <span>Mongolian</span>
                     </li>
                     <li>
                       Currency Used:
-                      <span>USD</span>
+                      <span>Mongolian Tögrög (MNT)</span>
                     </li>
                     <li>
-                      Area(km3):
-                      <span>88.000 km3</span>
+                      Area:
+                      <span>Approximately 965 km²</span>
                     </li>
                     <li>
                       Location:
-                      <span>34</span>
+                      <span>Gobi Desert, Ömnögovi Province</span>
                     </li>
                   </ul>
                   <Link href="/destination-details" className="theme-btn w-100">
                     <span>Book Now</span>{" "}
                     <i className="far fa-long-arrow-right"></i>
                   </Link>
-                </div>
-                <div
-                  className="offer-card bg-cover"
-                  style={{
-                    backgroundImage:
-                      "url(/images/destinations/offter-card.jpg)",
-                  }}
-                >
-                  <h3>Book Now and Enjoy Amazing Savings!</h3>
-                  <Image src={discount} alt="img" />
                 </div>
               </div>
             </div>

@@ -1,52 +1,52 @@
-import one from "@/public/images/tour/new/01.jpg";
-import two from "@/public/images/tour/new/02.jpg";
-import three from "@/public/images/tour/new/03.jpg";
+import otgontenger from "@/public/images/tour/mongolia/otgontenger.jpg";
+import ulaagchiniiKharNuur from "@/public/images/tour/mongolia/ulaagchinii_khar_nuur.jpg";
+import telmenLake from "@/public/images/tour/mongolia/telmen_lake.jpg";
 
 const FeaturedPlaceData = [
   {
     id: 0,
-    image: one,
-    country: "AUSTRALIA",
-    spot: "Ocean on the Maldive",
-    location: "6th Khoroo, Sukhbaatar District, Ulaanbaatar, Mongolia",
-    price: 333,
-    day: 5,
-    night: 4,
-    review: 30,
-    delay: "200",
-    destination: "/tour-details",
+    image: otgontenger,
+    country: "MONGOLIA",
+    spot: "Otgontenger Mountain",
+    location: "Zavkhan Province, Mongolia",
+    price: 450,
+    day: 6,
+    night: 5,
+    review: 45,
+    delay: "100",
+    destination: "/tour-details/otgontenger",
     description:
-      "We offer carefully curated destinations and tours that capture the true essence of location.",
+      "Ascend Mongolia's sacred peak, Otgontenger, and experience panoramic views of the Khangai Mountains.",
   },
   {
     id: 1,
-    image: two,
-    country: "Los Angeles",
-    spot: "Ocean on the Maldive",
-    location: "6th Khoroo, Sukhbaatar District, Ulaanbaatar, Mongolia",
-    price: 899,
-    day: 7,
-    night: 6,
-    review: 30,
+    image: ulaagchiniiKharNuur,
+    country: "MONGOLIA",
+    spot: "Ulaagchinii Khar Lake",
+    location: "Zavkhan Province, Mongolia",
+    price: 380,
+    day: 5,
+    night: 4,
+    review: 38,
     delay: "200",
-    destination: "/tour-details",
+    destination: "/tour-details/ulaagchinii-khar-nuur",
     description:
-      "We offer carefully curated destinations and tours that capture the true essence of location.",
+      "Discover the serene beauty of Ulaagchinii Khar Lake, nestled amidst sand dunes and mountains.",
   },
   {
     id: 2,
-    image: three,
-    country: "London",
-    spot: "Short around Pokhara",
-    location: "6th Khoroo, Sukhbaatar District, Ulaanbaatar, Mongolia",
-    price: 999,
+    image: telmenLake,
+    country: "MONGOLIA",
+    spot: "Telmen Lake",
+    location: "Zavkhan Province, Mongolia",
+    price: 400,
     day: 5,
     night: 4,
-    review: 30,
-    delay: "200",
-    destination: "/tour-details",
+    review: 40,
+    delay: "300",
+    destination: "/tour-details/telmen-lake",
     description:
-      "We offer carefully curated destinations and tours that capture the true essence of location.",
+      "Explore the tranquil shores of Telmen Lake, a haven for migratory birds and nature enthusiasts.",
   },
 ];
 

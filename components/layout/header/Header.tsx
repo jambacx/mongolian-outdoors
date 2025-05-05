@@ -6,7 +6,7 @@ import NavbarData from "@/public/data/navbar-data";
 import Topbar from "./Topbar";
 import SearchBar from "./SearchBar";
 import OffCanvasMenu from "./OffCanvasMenu";
-import logo from "@/public/images/logo/black-logo.svg";
+import logo from "@/public/images/logo/logo1.png";
 import call from "@/public/images/call.png";
 
 const Header = () => {
@@ -55,7 +55,7 @@ const Header = () => {
                 <div className="header-left">
                   <div className="logo">
                     <Link href="/" className="header-logo">
-                      <Image src={logo} alt="logo-img" />
+                      <Image width={240} height={80} src={logo} alt="logo-img" />
                     </Link>
                   </div>
                 </div>

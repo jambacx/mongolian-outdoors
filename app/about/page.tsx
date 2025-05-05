@@ -23,7 +23,7 @@ const page = () => {
       {/* <MarqueeSectionTwo />
       <AboutMain /> */}
       <Brand />
-      <TeamSectionTwo />
+      {/* <TeamSectionTwo /> */}
       {/* <CtaTwo /> */}
       <NewsSectionTwo />
       <Footer />

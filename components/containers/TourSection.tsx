@@ -36,7 +36,12 @@ const TourSection = () => {
               >
                 <div className="tour-box-items van-tilt">
                   <div className="thumb">
-                    <Image src={item.image} alt={item.spot} />
+                    <Image
+                      height={200}
+                      width={200}
+                      src={item.image}
+                      alt={item.spot}
+                    />
                   </div>
                   <div className="content">
                     <span>{item.country}</span>
