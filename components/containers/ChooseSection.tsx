@@ -1,5 +1,5 @@
 import Image from "next/image";
-import thumb from "@/public/images/choose-us/choose-us.jpg";
+import thumb from "@/public/images/choose-us/camel.jpg";
 import client from "@/public/images/choose-us/client-img.png";
 
 const ChooseSection = () => {
@@ -125,7 +125,7 @@ const ChooseSection = () => {
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  <Image src={client} alt="img" />
+                  {/* <Image src={client} alt="img" /> */}
                 </div>
                 <p
                   data-aos-duration="800"

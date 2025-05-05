@@ -54,8 +54,16 @@ const Header = () => {
               <div className="header-main">
                 <div className="header-left">
                   <div className="logo">
-                    <Link href="/" className="header-logo">
-                      <Image width={240} height={80} src={logo} alt="logo-img" />
+                    <Link
+                      href="/"
+                      className="header-logo"
+                      style={{
+                        fontSize: "22px",
+                        fontWeight: "bold",
+                        color: "#000",
+                      }}
+                    >
+                      Mongolian Outdoors
                     </Link>
                   </div>
                 </div>

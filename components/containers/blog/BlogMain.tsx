@@ -64,18 +64,18 @@ const BlogMain = () => {
                     <PostSearchForm />
                   </div>
                 </div>
-                <div className="single-sidebar-widget">
+                {/* <div className="single-sidebar-widget">
                   <div className="wid-title">
                     <h3>Popular Feeds</h3>
                   </div>
                   <PopularFeed />
-                </div>
-                <div className="single-sidebar-widget">
+                </div> */}
+                {/* <div className="single-sidebar-widget">
                   <div className="wid-title">
                     <h3>Categories</h3>
                   </div>
                   <BlogCategories />
-                </div>
+                </div> */}
                 <div className="single-sidebar-widget">
                   <div className="wid-title">
                     <h3>Never Miss News</h3>
