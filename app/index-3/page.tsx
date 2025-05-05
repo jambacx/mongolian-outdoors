@@ -1,4 +1,3 @@
-import HeaderTwo from "@/components/layout/header/HeaderTwo";
 import HeroThree from "@/components/layout/banner/HeroThree";
 import AboutThree from "@/components/containers/AboutThree";
 import MarqueeSection from "@/components/containers/MarqueeSection";
@@ -19,7 +18,7 @@ import InitAnimations from "@/components/layout/InitAnimations";
 const page = () => {
   return (
     <>
-      <HeaderTwo />
+      {/* <HeaderTwo /> */}
       <HeroThree />
       <AboutThree />
       <MarqueeSection />
