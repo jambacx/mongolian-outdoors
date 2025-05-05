@@ -1,6 +1,6 @@
 import otgontenger from "@/public/images/tour/mongolia/otgontenger.jpg";
-import ulaagchiniiKharNuur from "@/public/images/tour/mongolia/ulaagchinii_khar_nuur.jpg";
-import telmenLake from "@/public/images/tour/mongolia/telmen_lake.jpg";
+import ulaagchiniiKharNuur from "@/public/images/tour/mongolia/nuur.jpeg";
+import telmenLake from "@/public/images/tour/mongolia/altai-tawan.jpg";
 
 const FeaturedPlaceData = [
   {
