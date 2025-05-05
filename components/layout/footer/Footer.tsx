@@ -41,9 +41,18 @@ const Footer = () => {
           {/* Column 1 */}
           <div className="col-lg-4">
             <div className="footer-widget p-4 d-flex flex-column align-items-center gap-4">
-              <Link href="/" className="footer-logo mb-3">
-                <Image src={logo} alt="MO logo" width={120} />
+              <Link
+                href="/"
+                className="header-logo text-uppercase"
+                style={{
+                  fontSize: "22px",
+                  fontWeight: "bold",
+                  color: "#000",
+                }}
+              >
+                Mongolian Outdoors
               </Link>
+
               <div className="d-flex flex-column align-items-center gap-3">
                 <div className="d-flex align-items-center gap-2">
                   <Image src={call} alt="call" width={24} height={24} />
@@ -87,7 +96,7 @@ const Footer = () => {
           <div className="col-lg-4">
             <div className="footer-widget p-4 d-flex flex-column align-items-center gap-4">
               <h3 className="widget-title text-uppercase letter-spacing">
-                Mongolian Outdoors
+                Pages
               </h3>
               <ul className="list-unstyled d-flex flex-column gap-2 mb-0">
                 {NavbarData.map((item, i) => (

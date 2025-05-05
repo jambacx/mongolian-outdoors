@@ -56,9 +56,9 @@ const Header = () => {
                   <div className="logo">
                     <Link
                       href="/"
-                      className="header-logo"
+                      className="text-uppercase header-logo"
                       style={{
-                        fontSize: "22px",
+                        fontSize: "18px",
                         fontWeight: "bold",
                         color: "#000",
                       }}
